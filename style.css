@@ -1,0 +1,28 @@
+/* CSS BY Lily Teodorovich */
+
+/* GLOBAL STYLES */
+body {
+    background-color: aquamarine;
+    min-width: 350px;
+}
+
+/* MEDIA QUERY (medium) */
+@media screen and (min-width:750px) {
+    body {
+        background-color: blueviolet;
+    }
+}
+
+/* MEDIA QUERY (large) */
+@media screen and (min-width:1150px) {
+    body {
+        background-color: pink;
+    }
+}
+
+/* MEDIA QUERY (xl) */
+@media screen and (min-width:1550px) {
+    body {
+        background-color: yellowgreen;
+    }
+}
